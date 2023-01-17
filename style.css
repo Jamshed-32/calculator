@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ }
+ .row{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ h1{
+   font-size: 50px;
+   color: red;
+   text-transform: uppercase;
+ }
+ p{
+   font-size: 50px;
+ }
+ #calculator{
+    width: 500px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ #calculator button,#calculator input[type="text"]  {
+    width: 25%;
+    padding: 15px 20px;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    box-shadow: 0 0 9px 0 #999, inset 5px 5px 6px #ddd;
+    cursor: pointer;
+    
+ }
+ #calculator input[type="text"] {
+    width: 100%;
+    cursor: default;
+    
+ }
+ 
+ #changeColor{
+    position: fixed;
+    right: 100px;
+    top:100px;
+ }
